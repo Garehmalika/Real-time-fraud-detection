@@ -22,39 +22,7 @@ Ce projet illustre la détection de fraudes sur transactions financières à l�
 - JavaScript (amCharts, socket.io-client)  
 - Jupyter Notebook (pour exploration et tests)
 
-## Structure du projet
 
-P1-FRAUDES/
-├── dataset/                # Données brutes ou prétraitées
-
-├── new_env/                # Environnement virtuel ou conda (à ignorer dans README)
-
-├── static/                 # Fichiers statiques front-end
-
-│   ├── css/
-
-│   │   ├── export.css
-
-│   │   └── map.css
-
-│   ├── img/                # Images utilisées dans l’interface
-
-│   └── js/                 # Scripts JavaScript (ex: frauddetection.js)
-
-├── templates/              # Templates HTML (ex: map.html, index.html)
-├── api.py                  # Serveur Flask / API REST + WebSocket
-├── baseline.model          # Modèle LightGBM sauvegardé
-├── consumer.py             # Script consommateur (ex: websocket client)
-├── data_prep.ipynb         # Notebook préparation des données / création DB
-├── db.sqlite3              # Base de données SQLite
-├── deep_learning_model.h5  # Modèle Keras (MLP)
-├── fraud_detection.ipynb   # Notebook principal du projet
-├── info.txt                # Fichier d’informations diverses
-├── lightgbm_model.txt      # Fichier paramètres ou logs LightGBM
-├── producer.py             # Script producteur (ex: websocket serveur)
-├── requirements.txt        # Dépendances Python
-├── transactions.json       # Fichier JSON de transactions test ou exemple
-└── utils.py                # Fonctions utilitaires (train/test split, métriques, etc.)
 
 
 
