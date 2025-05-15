@@ -26,13 +26,21 @@ Ce projet illustre la détection de fraudes sur transactions financières à l�
 
 P1-FRAUDES/
 ├── dataset/                # Données brutes ou prétraitées
+
 ├── new_env/                # Environnement virtuel ou conda (à ignorer dans README)
+
 ├── static/                 # Fichiers statiques front-end
+
 │   ├── css/
+
 │   │   ├── export.css
+
 │   │   └── map.css
+
 │   ├── img/                # Images utilisées dans l’interface
+
 │   └── js/                 # Scripts JavaScript (ex: frauddetection.js)
+
 ├── templates/              # Templates HTML (ex: map.html, index.html)
 ├── api.py                  # Serveur Flask / API REST + WebSocket
 ├── baseline.model          # Modèle LightGBM sauvegardé
