@@ -1,0 +1,32 @@
+https://medium.com/@deepeshn1988/introduction-to-fraud-detection-systems-1786d696617
+https://github.com/miguelgfierro/ai_projects/blob/main/Intro_to_Fraud_Detection
+
+Fraude systématique : Cela fait référence à des schémas répétés ou planifiés d'actions frauduleuses, souvent associées à des groupes organisés ou à des employés corrompus.
+
+Fraude transactionnelle : Il s'agit d'une fraude qui se produit lors de la réalisation de transactions, comme l'utilisation frauduleuse de cartes de crédit ou de données bancaires volées.
+
+Détection en temps réel : Les systèmes de détection de fraude tentent de repérer les comportements suspects immédiatement, souvent pendant le processus de transaction. Cela peut inclure l'analyse en temps réel des comportements des utilisateurs ou des mouvements financiers.
+
+Apprentissage supervisé vs non supervisé : L'apprentissage supervisé consiste à utiliser des données étiquetées (fraude/non-fraude) pour entraîner des modèles, tandis que l'apprentissage non supervisé détecte des anomalies sans étiquettes.
+
+Techniques courantes de détection de fraude :
+Analyse des anomalies (Anomaly Detection) :
+Cette méthode repose sur l'idée qu'un comportement frauduleux se distingue généralement des comportements normaux. Les techniques statistiques ou les modèles de machine learning (comme les forêts d'arbres décisionnels ou les méthodes de clustering) sont utilisées pour détecter des anomalies dans les transactions ou comportements d’utilisateurs.
+
+Modèles de machine learning supervisés :
+Ces modèles, tels que les arbres de décision, les forêts aléatoires, les machines à vecteurs de support (SVM), et les réseaux neuronaux, sont entraînés à partir de jeux de données étiquetées pour prédire si une transaction ou un comportement est frauduleux. Ces modèles sont particulièrement efficaces lorsqu'un grand nombre de données étiquetées (fraude/non fraude) est disponible.
+
+Modèles non supervisés :
+Lorsque des données étiquetées sont indisponibles, des algorithmes non supervisés tels que le clustering (ex. K-means, DBSCAN) ou l’analyse en composantes principales (PCA) peuvent être utilisés pour repérer des motifs inhabituels ou des groupes d'actions similaires mais anormales qui pourraient indiquer une fraude.
+
+Analyse des réseaux :
+Cette technique est utilisée pour identifier des relations complexes entre les entités, comme les utilisateurs, les comptes bancaires, les transactions, etc. Elle repose souvent sur des graphes de relations pour détecter des comportements suspects ou des liens anormaux entre différentes entités.
+
+Détection par règles et heuristiques :
+Il s'agit de la méthode traditionnelle basée sur l'élaboration de règles logiques prédéfinies (ex. : "Si une transaction dépasse un certain montant et provient d'une nouvelle adresse IP, elle est considérée comme suspecte"). Ces règles peuvent être affinées avec le temps, mais elles ont l'inconvénient de ne pas toujours s'adapter à des modèles de fraude nouveaux ou complexes.
+
+Apprentissage profond (Deep Learning) :
+Les réseaux de neurones profonds (Deep Learning) sont utilisés pour traiter de grandes quantités de données complexes et identifier des modèles de fraude difficiles à détecter avec des méthodes classiques. Cela peut inclure l'analyse de séries temporelles (transactions financières au fil du temps), des images ou des vidéos.
+
+Systèmes experts et analyse prédictive :
+Les systèmes experts combinent les connaissances humaines avec des algorithmes pour établir des règles de détection adaptées. Ces systèmes peuvent être utilisés dans des secteurs comme l’assurance pour identifier des demandes suspectes. L’analyse prédictive peut également être utilisée pour estimer la probabilité qu'une transaction soit frauduleuse en se basant sur des données historiques.

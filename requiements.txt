@@ -1,0 +1,5 @@
+
+Numpy version: 2.0.1
+Pandas version: 2.2.2
+LightGBM version: 4.6.0
+Sklearn version: 1.6.1
